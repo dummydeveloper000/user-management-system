@@ -6,10 +6,10 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-user-plus mr-2"></i>Log Out</a>
+                <a class="nav-link" href="index.php"><i class="fas fa-user-plus mr-2"></i>Log Out</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-user-plus mr-2"></i>Register</a>
+                <a class="nav-link" href="register.php"><i class="fas fa-user-plus mr-2"></i>Register</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="index.php"><i class="fas fa-sign-in-alt mr-2"></i>Login</a>

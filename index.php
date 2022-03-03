@@ -1,6 +1,6 @@
 <?php
-include "include/header.php";
 include "include/db_config.php";
+include "include/header.php";
 ?>
 
 <div class="container">
@@ -10,9 +10,10 @@ include "include/db_config.php";
 ?>
 
 <?php
-$errorMsg = "";
 
 if(isset($_POST["login"])){
+  
+  $errorMsg = "";
   
   $email = $_POST["email"];
   $password = $_POST["password"];
@@ -31,7 +32,7 @@ if(isset($_POST["login"])){
     if(!empty($user) and !empty($password)){
       $errorMsg = "You are successfully logged In!";
     } else{
-      $errorMsg = "Incorrect Credentials!"
+      $errorMsg = "Incorrect Credentials!";
     }
     }
 }
